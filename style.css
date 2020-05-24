@@ -1,0 +1,32 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+#head {
+    position: relative;
+    height: 100vh;
+}
+#head header {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-40%);
+    text-align: center;
+}
+#head header h1 {
+    font-weight: 300;
+    font-size: 3em;
+}
+#head a {
+    padding: 10px 20px;
+    margin: 0 20px;
+    transition: color .3s;
+}
+#head a:hover {
+    color: #cb7c06;
+}
+a {
+    color: unset;
+    text-decoration: unset;
+}
